@@ -13,6 +13,8 @@ When updating the changelog, remember to be very clear about what behavior has c
 and what APIs have changed, if applicable.
 
 ## [Unreleased]
+- Remove `FileFormatDataSchemaParser.EXTENSION_PATH_ENTRY`, since it's not used.
+- Deprecate `FileFormatDataSchemaParser#new(String, DataSchemaResolver, DataSchemaParserFactory)`, add a new constructor. 
 
 ## [29.6.7] - 2020-09-18
 - Added async call to Zookeeper in backup request client.
