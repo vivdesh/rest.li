@@ -13,6 +13,8 @@ When updating the changelog, remember to be very clear about what behavior has c
 and what APIs have changed, if applicable.
 
 ## [Unreleased]
+- Remove methods `ResourceContext#shouldReturnEntity` and `ResourceContextImpl#shouldReturnEntity`,
+  which have been deprecated since version `27.2.0`.
 
 ## [29.19.5] - 2021-06-24
 - Fix request builder generator to skip unstructured data sub resources correctly.
